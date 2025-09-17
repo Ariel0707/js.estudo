@@ -8,12 +8,12 @@ function carregar() {
 }
 if (hora >= 0 && hora < 12 ) {
     //BOM DIA 
-   foto.src = `/dia22.jpg`
+   foto.src = `dia22.jpg`
    }
     
 else if (hora >= 12 && hora < 18){
     //BOA TARDE
-    foto.src = `img/tarde.jpg`
+    foto.src = `tarde.jpg`
 }else{
     //BOA NOITE
     foto.src = `noite.png`
