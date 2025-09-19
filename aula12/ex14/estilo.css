@@ -15,6 +15,12 @@ section{
     text-align: center;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.541);
 }
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px;
+}
 footer{
     color: wheat;
     text-align: center;
