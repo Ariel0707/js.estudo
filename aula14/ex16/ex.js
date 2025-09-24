@@ -7,7 +7,9 @@ function Gerar_Tabuada(){
         window.alert(`[ERRO] Digite um número válido!`)
         resultado.innerHTML = ``
     }else{
-        resultado.innerHTML = ``
+        fo(var C = numero; C <=10; C ++){
+        resultado.innerHTML = += '${C} x ${num} = ${C*num}<br'>
+        }
     }
 
 
