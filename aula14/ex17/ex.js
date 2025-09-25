@@ -13,6 +13,8 @@ function Gerar_Tabuada(){
 
     // Gera a tabuada de 1 a 10
     for(let c = 1; c <= 10; c++) {
-        resultado.innerHTML += `${num} x ${c} = ${num*c} <br>`;
+        let item = document.createElement('option');
+        item.text = `${num} x ${c} = ${num*c}`;
+       resultado.appendChild(item);
     }
 }
