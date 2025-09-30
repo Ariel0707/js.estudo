@@ -8,8 +8,8 @@ function Adicionar() {
         return;
     } else(adi.value.length > 100);{
         window.alert(`[ERRO] Valor em validor!`);
-       return;
-    } {
+       
+    } 
         let num = Number(adi.value)
         respota.innerHTML = '';
         for(let num in adi){
