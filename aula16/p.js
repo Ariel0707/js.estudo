@@ -26,4 +26,18 @@ function Adicionar() {
     // Limpa o campo de entrada e foca nele para a próxima digitação
     inputNumero.value = '';
     inputNumero.focus();
+    
+}
+function Fializar() {
+     let inputNumero = document.getElementById('txtn');
+    let selectLista = document.getElementById('seltab');
+    let resultados = document.getElementById('resp');
+    
+     let num = Number(inputNumero.value);
+     console.log(num.length());
+    
+  
+   resultados.innerHTML +=`${num.length()}` 
+
+    
 }
