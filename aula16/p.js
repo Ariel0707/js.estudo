@@ -11,7 +11,9 @@ function Adicionar() {
         let c = num
         while (c = 100){
             let item = document.createElement(`option`)
-            item.t
+            item.text = `${num}`
+            mostra.appendChild(item)
+            c++
         }
 
         } 
