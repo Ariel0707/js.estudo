@@ -3,36 +3,29 @@ function Adicionar() {
     let mostra = document.getElementById(`submit`)
     let respota = document.getElementById(`res`)
     
-    if (adi.value.length == 0) {
-        window.alert(`[ERRO] Por favor, digite um número!`);
-        return;
-    } else(adi.value.length > 100);{
-        window.alert(`[ERRO] Valor em validor!`);
-       
-    } 
-        let num = Number(adi.value)
-        respota.innerHTML = '';
-        for(let num in adi){
-            let item = document.createElement(`option`)
-            item.text = `${num} `
-            respota.appendChild(item)
-
-        }
-    }
+        if (adi.value.length == 0) {
+            window.alert(`[ERRO] Por favor, digite um número!`);
         
-    
-     let num = Number(adi.value)
-    respota.innerHTML = '';
-      for(let num in adi){
-        let item = document.createElement(`option`)
-        item.text = `${num} `
-        respota.appendChild(item)
-
+        } else{
+        let num = Number(adi.value) 
+        let c = num
+        while (c = 100){
+            let item = document.createElement(`option`)
+            item.t
         }
+
+        } 
+        
+    }
+       
+    
+    
+
+        
     
 
  
 
     
 
-}
+
