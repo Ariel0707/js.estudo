@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(98, 98, 241);
+    background-color: rgb(1, 146, 61);
 }
 header{
     color: white;
@@ -7,7 +7,8 @@ header{
 
 }
 section{
-    background: white;
+    background: rgba(187, 246, 105, 0.701);
+    color: rgb(2, 86, 19);
     border-radius: 10px;
     padding: 15px;
     width: 500px;
@@ -15,8 +16,15 @@ section{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.541);
 }
 select{
+    color: #340707;
     width: 170px;
     
+}
+input{
+    color: rgb(2, 86, 19);
+}
+option{
+    color: rgb(2, 86, 19);
 }
 footer{
     color: wheat;
