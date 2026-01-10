@@ -8,19 +8,20 @@
 <body>
     <h1>Nasionalidade</h1>
 
-   Qual o seu pais <input type="text" >
+   Qual o seu pais <input type="" name="text" id="text">
  <input type="button" value="verificar" onclick="calcular()" >
 <div id="ret"></div>
+
  <script>
     function calcular() {
-    var pais = `brasil`
+    var pais = document.getElementById(`text`).value.toLowerCase()
     var ret = document.querySelector(`div#ret`)
 
     if(pais == `brasil`){
-            ret.innerHTML = (`Voce e Brasileiro`)
+            ret.innerHTML += `Voce e Brasileiro`
     }
     else {
-    ret.innerHTML = (`Voce e Estrageiro`)
+      ret.innerHTML += `Voce e Estrageiro`
     }
      }
  </script>
