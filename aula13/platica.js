@@ -5,13 +5,13 @@ do{
     c++
  } while(c <= 50)
 
-
-//var c = 1
-//while(c <= 500){
-   // console.log(`passo ${c}`)
-  //  c++
-//}
-
+/*
+var c = 1
+while(c <= 500){
+    console.log(`passo ${c}`)
+   c++
+}
+*/
 
 
 
