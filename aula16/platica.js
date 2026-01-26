@@ -7,4 +7,4 @@ function parimpar(n){
     }
 }
 
-console.log(parimpar(5))
+console.log(parimpar(6))
